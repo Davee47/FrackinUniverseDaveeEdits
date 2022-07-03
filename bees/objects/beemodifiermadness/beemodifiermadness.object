@@ -1,0 +1,31 @@
+{
+	"objectName" : "fu_beemodifiermadness",
+	"colonyTags" : [ "madness","bees" ],
+	"rarity" : "Rare",
+	"description" : "An advanced microscope designed to modify queen bees.",
+	"shortdescription" : "^orange;Advanced^reset; Bee Modifier",
+	"race" : "generic",
+	"subtitle" : "Modify Bees",
+	"category" : "crafting",
+	"price" : 100,
+	"objectType" : "container",
+	"printable" : false,
+	"health" : 0.1,
+
+	"inventoryIcon" : "icon3.png",
+	"orientations" : [
+		{
+			"dualImage" : "object3.png",
+			"imagePosition" : [0, 0],
+			"spaceScan" : 0.1,
+			"anchors" : [ "bottom" ]
+		}
+	],
+
+	--"recipeGroup" : "beetrap",
+	"soundEffect" : [ "/sfx/objects/woodenbox_open.ogg" ],
+	"soundEffectRangeMultiplier" : 1.0,
+
+	"interactAction" : "ScriptPane",
+	"interactData" : "/interface/scripted/fu_beemodifiermadness/fu_beemodifiermadness.config"
+}
